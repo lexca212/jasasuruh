@@ -32,8 +32,8 @@ class Jasa extends CI_Controller
         ];
 
         if ($this->M_jasa->simpan($data)) {
-            $tokenbot = "8449401122:AAHKlWVGqvWfl03PZmeFxeBfeYgDCCxmXR0";
-            $grupid = "-1002974288537";
+            $tokenbot = "tokenbotkamu";
+            $grupid = "-7";
 
             // Pastikan nomor WA tidak ada spasi/dash
             $no_wa = preg_replace('/[^0-9]/', '', $data['no_wa']);
