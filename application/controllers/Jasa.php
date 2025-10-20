@@ -33,7 +33,7 @@ class Jasa extends CI_Controller
 
         if ($this->M_jasa->simpan($data)) {
             $tokenbot = "tokenbotkamu";
-            $grupid = "-7";
+            $grupid = "grup";
 
             // Pastikan nomor WA tidak ada spasi/dash
             $no_wa = preg_replace('/[^0-9]/', '', $data['no_wa']);
